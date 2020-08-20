@@ -1,4 +1,4 @@
-# ![Check city connected Example using Spring boot]
+# [Check city connected Example using Spring boot]
 
 > ### Spring boot + Unit Test skeleton and exception handler  codebase containing real world examples of connected cities and graph algorithm 
 
