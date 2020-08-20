@@ -2,7 +2,7 @@
 
 > ### Spring boot + Unit Test skeleton and exception handler  codebase containing real world examples of connected cities and graph algorithm 
 
-This codebase was created to demonstrate a fully fledged fullstack application built with Spring boot including Junit, and REST Service exception handler
+This codebase was created to demonstrate a fully API application built with Spring boot including Junit, and REST Service exception handler
 
 
 
@@ -10,15 +10,15 @@ This codebase was created to demonstrate a fully fledged fullstack application b
 
 The application uses Spring boot .
 
-* Use the idea of Domain Driven Design to separate the business term and infrastruture term.
+* Use the idea of Software As Service to expose a City Link API example REST Format.
 * Use SpringBoot Event Listner to load data when application starts .
 * Use Controller Advice to handle any kind of exception.
 
 And the code organize as this:
 
-1. `controller` is the web layer to implement by Spring MVC
+1. `controller` is the REST API Implimentation End Point 
 2. `service` is the service model - due to short timeframe there is no business Model
-3. `infrastructure`  contains all the implementation classes as the technique details
+3. `test`  contains all the junit test cases and or skeleton
 
 
 
